@@ -1,0 +1,44 @@
+.joke-container {
+    padding-left: 280px;
+    padding-right: 280px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.vote {
+    display: flex;
+    margin-top: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    width: 200px;
+    height: 38px;
+    margin-right: 1.5rem;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.blue-button {
+    background-color: #2C7EDB;
+}
+
+.green-button {
+    background-color: #29B363;
+}
+
+.blue-button:hover {
+    background-color: #4189DC;
+}
+
+.green-button:hover {
+    background-color: #4DC380;
+}
+
+.button.active {
+    transform: scale(0.95);
+}
